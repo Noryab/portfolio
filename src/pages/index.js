@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 
 import Sidenav from '@/components/Sidenav'
+import Main from '@/components/Main'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +19,7 @@ export default function Home() {
       <main>
         <div>
           <Sidenav />
+          <Main />
         </div>
         <div>
           <p> 
