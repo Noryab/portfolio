@@ -3,10 +3,10 @@ import Workitem from './Workitem'
 
 
 const data = [{
-    year:2023,
-    title:"title",
-    duration:1,
-    description:""
+    year:2018,
+    title:"Softel",
+    duration:5,
+    description:"Data scientist - Backend developer"
 }]
 
 
