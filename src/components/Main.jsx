@@ -7,7 +7,7 @@ import {FaTwitter, FaGithub} from 'react-icons/fa'
 const Main = () => {
   return (
     <div id='main'>
-        <img className='w-full h-screen object-cover object-left scale-x-[-1]' 
+        <img className='bg-auto md:bg-contain w-full h-screen object-left scale-x-[-1]' 
             src='https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80'
             alt='/'
             />
@@ -19,9 +19,9 @@ const Main = () => {
                 sequence={[
                     'Developer', // Types 'One'
                     1000, // Waits 1s
-                    'Coder', // Deletes 'One' and types 'Two'
+                    'ML Engineer', // Deletes 'One' and types 'Two'
                     2000, // Waits 2s
-                    'Tech Enthusiast', // Types 'Three' without deleting 'Two'
+                    'Cloud Architect', // Types 'Three' without deleting 'Two'
                     () => {
                     console.log('Done typing!'); // Place optional callbacks anywhere in the array
                     }
