@@ -1,9 +1,9 @@
 import React from 'react'
 import Projectitem from './Projectitem'
-import OneImg  from '@/assets/1.jpg'
-import TwoImg  from '../assets/2.png'
-import ThreeImg  from '../assets/3.png'
-import FourImg  from '../assets/4.png'
+import OneImg  from '@/assets/one.jpg'
+import TwoImg  from '../assets/two.jpg'
+import ThreeImg  from '../assets/three.jpg'
+import FourImg  from '../assets/four.jpg'
 
 
 const Projects = () => {
