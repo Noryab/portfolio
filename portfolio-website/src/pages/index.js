@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import Sidenav from '@/components/Sidenav'
 import Main from '@/components/Main'
 import Work from '@/components/Work'
+import Projects from '@/components/Projects'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,11 +22,7 @@ export default function Home() {
           <Sidenav />
           <Main />
           <Work />
-        </div>
-        <div>
-          <p> 
-            Get started by editing&nbsp;            
-          </p>
+          <Projects />
         </div>
       </main>
     </>
