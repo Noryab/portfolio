@@ -3,7 +3,7 @@ import Workitem from "./Workitem";
 
 const data = [
   {
-    year: 2018,
+    year: 2022,
     title: "Softel",
     duration: "5 Years",
     description:
