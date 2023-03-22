@@ -3,6 +3,13 @@ import Workitem from "./Workitem";
 
 const data = [
   {
+    year: 2023,
+    title: "Softel",
+    duration: "5 Years",
+    description:
+      "Data scientist - Backend developer: lorem ipsum. dolor sit amet cosectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime hic sed enim repellendus illum! Fugiat quas, voluptas unde ipsam cumque eius nemo accusantium magnam harum! Quia voluptate saepe vero consectetur!",
+  },
+  {
     year: 2022,
     title: "Softel",
     duration: "5 Years",
@@ -10,14 +17,7 @@ const data = [
       "Data scientist - Backend developer: lorem ipsum. dolor sit amet cosectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime hic sed enim repellendus illum! Fugiat quas, voluptas unde ipsam cumque eius nemo accusantium magnam harum! Quia voluptate saepe vero consectetur!",
   },
   {
-    year: 2018,
-    title: "Softel",
-    duration: "5 Years",
-    description:
-      "Data scientist - Backend developer: lorem ipsum. dolor sit amet cosectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime hic sed enim repellendus illum! Fugiat quas, voluptas unde ipsam cumque eius nemo accusantium magnam harum! Quia voluptate saepe vero consectetur!",
-  },
-  {
-    year: 2018,
+    year: 2021,
     title: "Softel",
     duration: "5 Years",
     description:
