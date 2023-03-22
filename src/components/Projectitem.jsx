@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Projectitem = ({ img, title }) => {
   // img ='https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80'
@@ -11,9 +12,9 @@ const Projectitem = ({ img, title }) => {
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">React JS</p>
-        <a href="/">
+        <Link href="/">
           <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">More info</p>
-        </a>
+        </Link>
       </div>
     </div>
   );
