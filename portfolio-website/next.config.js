@@ -5,28 +5,28 @@
 // const basePath = `/${repo}`
 
 
-// const nextConfig = {
-//   reactStrictMode: true,
-//   images: {
-//     remotePatterns: [
-//       {
-//         protocol: 'https',
-//         hostname: 'images.unsplash.com',
-//         port: '',
-//         pathname: '/**',
-//       },
-//     ],
-//     // domains: ['images.unsplash.com'],
-//   },
-// }
-
-const nextConfig   = {
+const nextConfig = {
+  reactStrictMode: true,
   images: {
-    loader: 'akamai',
-    path: '',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+    // domains: ['images.unsplash.com'],
   },
-  assetPrefix: './',
-};
+}
+
+// const nextConfig   = {
+//   images: {
+//     loader: 'akamai',
+//     path: '',
+//   },
+//   assetPrefix: './',
+// };
 
 // export default   nextConfig;
 

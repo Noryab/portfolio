@@ -14,7 +14,7 @@ const Main = () => {
         alt="cover image"
         width={200}
         height={400}
-        responsive
+        
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center">
