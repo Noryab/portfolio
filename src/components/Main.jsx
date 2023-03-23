@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaTwitter, FaGithub, FaLinkedinIn} from "react-icons/fa";
-import ProfileImg from "public/assets/profile2.JPG";
+import ProfileImg from "public/assets/profile2.jpg";
 import Image from "next/image";
 
 const Main = () => {
