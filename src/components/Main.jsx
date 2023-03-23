@@ -45,9 +45,9 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
+            <a href="https://twitter.com/balgaci" target="_blank" rel="noreferrer"><FaTwitter className="cursor-pointer" size={20} /></a>
+            <a href="https://github.com/Noryab" target="_blank" rel="noreferrer"><FaGithub className="cursor-pointer" size={20} /></a>
+            <a href="https://twitter.com/balgaci" target="_blank" rel="noreferrer"><FaLinkedinIn className="cursor-pointer" size={20} /></a>
           </div>
         </div>
       </div>
