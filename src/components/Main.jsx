@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-<div id="main" className="inset-0 felx items-center justify-center h-screen w-screen bg-fixed bg-cover bg-center bg-[url(/assets/bg2.jpg)] xl:bg-[url(/assets/bg2.jpg)] bg-opacity-25 bg-blur-2xl">      
+<div id="main" className="inset-0 felx items-center justify-center h-screen w-screen bg-fixed bg-cover bg-center bg-bg2 xl:bg-bg2 bg-opacity-25 bg-blur-2xl">      
   <div class="flex items-center justify-center h-screen">
     <div class="text-white">
       <Image

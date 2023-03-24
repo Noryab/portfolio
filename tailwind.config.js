@@ -13,7 +13,10 @@ module.exports = {
       },
       animation: {
         resume: "wiggle 200ms ease-in-out"
-      }
+      },
+      backgroundImage: {
+        bg2: "url(/assets/bg2.jpg)",
+      },
 
     },
   },
