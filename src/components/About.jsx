@@ -33,10 +33,10 @@ const About = () => {
             </h1>
             <div>
               <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-4 text-gray-800">
-              I'm a master of Engineering (M.Eng.) of UNAM and my passion is software design and development, robotics, machine learning, computer vision and cloud architecture.                            
+              I am a master of Engineering (M.Eng.) of UNAM and my passion is software design and development, robotics, machine learning, computer vision and cloud architecture.                            
               </p>
               <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-4 text-gray-800">
-              I'm currently a freelance.
+              I am currently a freelance.
               </p>
               <h2 className="pt-5"><b>UNAM</b></h2>
               <ul className="pt-5 pl-5 list-disc list-outside text-left text-xl text-gray-700">
