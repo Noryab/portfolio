@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {  
 
-  content: ["./index.html",
+  content: ["./index.html",            
             "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -15,7 +15,7 @@ module.exports = {
         resume: "wiggle 200ms ease-in-out"
       },
       backgroundImage: {
-        bg2: "url('/assets/bg2.jpg')",
+        bg2: "url('./public/assets/bg2.jpg')",
       },
 
     },
