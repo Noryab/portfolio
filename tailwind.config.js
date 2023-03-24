@@ -14,8 +14,8 @@ module.exports = {
       animation: {
         resume: "wiggle 200ms ease-in-out"
       },
-      backgroundImage: {
-        bg2: "url('./public/assets/bg2.jpg')",
+      backgroundImage:  {
+        bg2: "url('../../public/assets/bg2.jpg')",
       },
 
     },
