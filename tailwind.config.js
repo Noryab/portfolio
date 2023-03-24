@@ -1,9 +1,21 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+module.exports = {  
+
   content: ["./index.html",
             "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        resume: {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" }
+        }
+      },
+      animation: {
+        resume: "wiggle 200ms ease-in-out"
+      }
+
+    },
   },
   plugins: [],
 }

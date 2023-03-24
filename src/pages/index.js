@@ -6,6 +6,8 @@ import Main from "@/components/Main";
 import Work from "@/components/Work";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import About from "@/components/About";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,12 +21,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <div className="max-w-[1440px] m-auto h-full w-full flex flex-col justify-center">
+      <div className="m-auto h-full w-full flex flex-col justify-center">
           <Sidenav />
           <Main />
+          <About />
           <Work />
           <Projects />
           <Contact />
+          <ScrollToTop/>
         </div>
       </main>
     </>
