@@ -1,8 +1,8 @@
 import React from "react";
 import Projectitem from "./Projectitem";
-import OneImg from "public/assets/one.jpg";
-import TwoImg from "public/assets/two.jpg";
-import ThreeImg from "public/assets/three.jpg";
+import OneImg from "public/assets/Sistema.png";
+import TwoImg from "public/assets/Raytracing.png";
+import ThreeImg from "public/assets/Phong3.png";
 import FourImg from "public/assets/four.jpg";
 
 const Projects = () => {
@@ -18,10 +18,10 @@ const Projects = () => {
         Minus.
       </p>
       <div className="grid sm:grid-cols-2 gap-7">
-        <Projectitem img={OneImg} title="1" />
-        <Projectitem img={TwoImg} title="2" />
-        <Projectitem img={ThreeImg} title="3" />
-        <Projectitem img={FourImg} title="4" />
+        <Projectitem img={OneImg} title="Visual odometry" description="VO" />
+        <Projectitem img={TwoImg} title="Ray Tracing" description="RT" />
+        <Projectitem img={ThreeImg} title="3" description="VO" />
+        <Projectitem img={FourImg} title="4" description="VO" />
       </div>
     </div>
   );

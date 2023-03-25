@@ -15,7 +15,7 @@ module.exports = {
         resume: "wiggle 200ms ease-in-out"
       },
       backgroundImage:  {
-        bg2: "url('../../public/assets/bg2.jpg')",
+        bg2: "url('../../public/assets/bg15.jpg')",
       },
 
     },

@@ -8,8 +8,8 @@ import { useState } from "react";
 const About = () => {
   const [effect, setEffect] = useState(false);
   return (
-    <div id="about"  className="bg-gradient-to-tr lg:h-screen lg:w-screen sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-slate-300 to-[#c2c5cd]">
-      <div className="max-w-[1240px] lg:py-20 m-auto py-1 flex flex-col lg:flex-row sm:flex-col justify-center items-center sm:pl-10">      
+    <div id="about"  className="bg-gradient-to-tr lg:h-screen lg:w-screen sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-slate-100 to-[#abb3cd]">
+      <div className="max-w-[1240px] lg:py-20 m-auto flex flex-col lg:flex-row justify-center items-center">      
         <div className="max-w-[1000px] lg:pl-10 flex flex-col items-center p-5 sm:justify-center sm:pt-0 lg:items-center text-justify">
           <div className="lg:max-w-[1000px] sm:h-60 sm:w-60 h-40 w-40 items-start">
               <Image                
@@ -33,7 +33,7 @@ const About = () => {
             </h1>
             <div>
               <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-4 text-gray-800">
-              I am a master of Engineering (M.Eng.) of UNAM and my passion is software design and development, robotics, machine learning, computer vision and cloud architecture.                            
+              I am a master of Engineering (M.Eng.) of UNAM and my interests are software design and development, robotics, machine learning, computer vision and cloud architecture.                            
               </p>
               <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-4 text-gray-800">
               I am currently a freelance.
