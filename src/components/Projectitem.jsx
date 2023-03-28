@@ -3,28 +3,24 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Projectitem = ({ img, title, description }) => {
-  // img ='https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80'
   return (
-    <Link
-      href="#"
-      className="relative flex justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r text-blue-600 hover:text-blue-200"
-    >
+    <div className="relative flex justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r text-blue-600 hover:text-blue-200">
       <Image
         src={img}
         alt="/"
-        className="block rounded-xl group-hover:brightness-50 group-hover:scale-105 group-hover:z-10 group-hover:overflow-hidden"
+        className="sm:block rounded-xl group-hover:brightness-50 sm:group-hover:scale-105 sm:group-hover:z-10 sm:group-hover:overflow-hidden"
       />
       <Link href="#">
-        <h5 className="group-hover:z-10 group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-100%] group-hover:translate-y-[-400%] text-center mb-2 text-2xl font-bold tracking-tight  hover:text-blue-200 dark:text-white transition duration-300">
+        <h5 className="group-hover:z-10 sm:group-hover:block absolute top-[50%] group-hover:translate-y-[-300%]  sm:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] sm:group-hover:translate-y-[-400%] text-center mb-2 text-2xl font-bold tracking-tight  hover:text-blue-200 dark:text-white transition duration-300">
           {title}
         </h5>
       </Link>
 
-      <div className="group-hover:block group-hover:z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[50%] group-hover:translate-y-0 transition duration-500 ">
+      <div className="sm:group-hover:block sm:group-hover:z-10 absolute top-[10%] sm:top-[50%] left-[50%] translate-x-[-50%] translate-y-[20%] sm:translate-y-[50%] sm:group-hover:translate-y-0 transition duration-500 ">
         <div className="hidden  group-hover:block">
-          <p className="mb-3 font text-xl text-white dark:text-gray-400 ">
+          <p className="mb-3 font sm:flex flex-wrap sm:text-xl text-white dark:text-gray-400 ">
             {description} Here are the biggest enterprise technology
-            acquisitions of 2021 so far, in reverse chronological order.
+            acquisitions of 2021 so far.
           </p>
           <Link
             href="#contact"
@@ -50,7 +46,7 @@ const Projectitem = ({ img, title, description }) => {
           </Link>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

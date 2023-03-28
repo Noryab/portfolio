@@ -16,7 +16,7 @@ const Sidenav = () => {
     setNav(!nav);
   };
   return (
-    <div >
+    <div>
       <AiOutlineMenu
         onClick={handleNav}
         className="fixed top-2 right-0 z-[99] md:hidden"
@@ -102,7 +102,7 @@ const Sidenav = () => {
             href="#skills"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-150"
           >
-            <AiOutlineTool size={20} />            
+            <AiOutlineTool size={20} />
           </a>
           <a
             href="#projects"
