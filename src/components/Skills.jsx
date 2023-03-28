@@ -11,9 +11,12 @@ const Skills = () => {
         <h1 className="text-4xl font-bold text-center text-[#f1f3f7]">
           Skills
         </h1>
-        <div className="container m-auto grid grid-cols-2 gap-6">
-          <h3 align="center">Languages:</h3>
-          <div className="flex flex-row justify-around">
+        <div className="container m-auto grid grid-cols-[30%_20%_30%_20%] gap-20 pt-20">
+          <h3 className="text-3xl text-justify font-medium text-white">
+            Languages:
+          </h3>
+          {/* <div className="flex flex-row justify-around"> */}
+          <div className="relative flex p-5 justify-start h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
             <a
               href="https://www.w3schools.com/cpp/"
               target="_blank"
@@ -47,8 +50,10 @@ const Skills = () => {
               />
             </a>
           </div>
-          <h3 align="center">Database:</h3>
-          <div className="flex flex-row justify-around">
+          <h3 className="text-3xl text-justify font-medium text-white">
+            Database:
+          </h3>
+          <div className="relative flex p-5 justify-start h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
             <a
               href="https://www.postgresql.org"
               target="_blank"
@@ -83,8 +88,10 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 align="center">Frontend Development:</h3>
-          <div className="flex flex-row justify-around">
+          <h3 className="text-3xl text-justify font-medium text-white">
+            Frontend Development:
+          </h3>
+          <div className="relative flex p-5 justify-start h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
             <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
               <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -131,8 +138,10 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 align="center">Backend Development:</h3>
-          <div className="flex flex-row justify-around">
+          <h3 className="text-3xl text-justify font-medium text-white">
+            Backend Development:
+          </h3>
+          <div className="relative flex p-5 justify-start h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
             <a
               href="https://flask.palletsprojects.com/"
               target="_blank"
@@ -171,8 +180,10 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 align="center">Data Visualization:</h3>
-          <div className="flex flex-row justify-around">
+          <h3 className="text-3xl text-justify font-medium text-white">
+            Data Visualization:
+          </h3>
+          <div className="relative flex p-5 justify-start h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
             <a
               href="https://seaborn.pydata.org/"
               target="_blank"
@@ -195,8 +206,10 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 align="center">AI/ML/CV:</h3>
-          <div className="flex flex-row justify-around">
+          <h3 className="text-3xl text-justify font-medium text-white">
+            AI/ML/CV:
+          </h3>
+          <div className="relative flex p-5 justify-start h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
             <a href="https://opencv.org/" target="_blank" rel="noreferrer">
               <Image
                 src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg"
@@ -243,8 +256,10 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 align="center">Tools:</h3>
-          <div className="flex flex-row justify-around">
+          <h3 className="text-3xl text-justify font-medium text-white">
+            Tools:
+          </h3>
+          <div className="relative flex p-5 justify-start h-auto w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
             <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
               <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"

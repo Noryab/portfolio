@@ -11,7 +11,7 @@ const Main = () => {
       id="main"
       className="inset-0 items-center justify-center h-screen w-screen bg-fixed bg-cover bg-center bg-bgMain xl:bg-bgMain "
     >
-      <div class="flex items-center justify-center h-screen backdrop-brightness-40">
+      <div class="flex items-center justify-center h-screen backdrop-brightness-50">
         <div class="text-white items-center align-middle justify-center">
           <div className="flex justify-center h-44 w-44 sm:h-auto sm:w-auto">
             <Image
