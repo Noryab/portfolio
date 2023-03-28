@@ -5,15 +5,21 @@ import Link from "next/link";
 const Projectitem = ({ img, title, description }) => {
   // img ='https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80'
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover: bg-gradient-to-r from-gray-200 to-[#001b5e]">
-      <Image src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
+    <div className="relative flex  justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
+      <Image
+        src={img}
+        alt="/"
+        className="rounded-xl group-hover:brightness-50"
+      />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl font-bold text-white tracking-wider text-center">
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{description}</p>
         <Link href="/">
-          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">More info</p>
+          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
+            More info
+          </p>
         </Link>
       </div>
     </div>

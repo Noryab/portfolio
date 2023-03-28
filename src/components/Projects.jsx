@@ -17,7 +17,7 @@ const Projects = () => {
         excepturi enim quas sapiente cum doloremque animi cumque reprehenderit?
         Minus.
       </p>
-      <div className="grid sm:grid-cols-2 gap-7">
+      <div className="grid sm:grid-cols-2 gap-1 items-stretch">
         <Projectitem img={OneImg} title="Visual odometry" description="VO" />
         <Projectitem img={TwoImg} title="Ray Tracing" description="RT" />
         <Projectitem img={ThreeImg} title="3" description="VO" />
