@@ -4,22 +4,20 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'www.creative-tim.com',
-        port: '',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "www.creative-tim.com",
+        port: "",
+        pathname: "/**",
       },
       {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-        port: '',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        port: "",
+        pathname: "/**",
       },
-
     ],
     // domains: ['images.unsplash.com'],
   },
-}
+};
 
-
-module.exports = nextConfig
+module.exports = nextConfig;

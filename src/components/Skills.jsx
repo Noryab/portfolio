@@ -8,7 +8,7 @@ const Skills = () => {
       id="skills"
       className="pl-10 pr-10 pb-16 bg-gradient-to-tr md:m-auto h-auto w-screen sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-[#29bc8d] to-[#2988bc]"
     >
-      <div className="max-w-[1240px] px-10 m-auto p-4  flex flex-col py-10">
+      <div className="max-w-[1240px] py-10 m-auto p-4  flex flex-col">
         <h1 className="text-4xl font-bold text-center text-[#f1f3f7]">
           Skills
         </h1>
