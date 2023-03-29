@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Projectitem = ({ img, title, description }) => {
   return (
-    <div className="relative flex justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r text-blue-600 hover:text-blue-200">
+    <div className="relative flex flex-wrap justify-center h-full w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r text-blue-600 hover:text-blue-200">
       <Image
         src={img}
         alt="/"
-        className="sm:block rounded-xl group-hover:brightness-50 sm:group-hover:scale-105 sm:group-hover:z-10 sm:group-hover:overflow-hidden"
+        className=" object-containt sm:block rounded-xl group-hover:brightness-50 sm:group-hover:scale-100 sm:group-hover:z-10 sm:group-hover:overflow-hidden"
       />
       <Link href="#">
         <h5 className="group-hover:z-10 sm:group-hover:block absolute top-[50%] group-hover:translate-y-[-300%]  sm:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] sm:group-hover:translate-y-[-400%] text-center mb-2 text-2xl font-bold tracking-tight  hover:text-blue-200 dark:text-white transition duration-300">
