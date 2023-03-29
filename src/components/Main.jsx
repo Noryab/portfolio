@@ -13,7 +13,7 @@ const Main = () => {
     >
       <div class="flex flex-col h-screen justify-center items-center backdrop-brightness-50">
         <Image
-          className="rounded-full flex justify-center h-60 w-60 sm:w-auto sm:h-auto"
+          className="rounded-full flex justify-center h-60 w-60 "
           src={ProfileImg}
           alt="profile pic"
           width={300}
