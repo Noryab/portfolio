@@ -14,7 +14,7 @@ const Projects = () => {
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">
         Projects
       </h1>
-      <p className="text-center py-8">
+      <p className="text-justify py-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet rerum
         iste voluptates, quidem iure blanditiis, quasi esse fuga repellat quod
         excepturi enim quas sapiente cum doloremque animi cumque reprehenderit?

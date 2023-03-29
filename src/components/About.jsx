@@ -10,11 +10,11 @@ const About = () => {
   return (
     <div
       id="about"
-      className="pl-10 pr-10 pb-16 bg-gradient-to-tr h-auto w-auto sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
+      className="bg-gradient-to-tr h-auto w-screen sm:h-auto bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
     >
-      <div className="max-w-[1240px] sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
+      <div className="max-w-[1240px] py-10 sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
         <h1 className="text-4xl font-bold text-center text-[#f1f2f4]">About</h1>
-        <div className="max-w-[1000px] pl-10 pr-10 flex flex-col items-center p-10 sm:justify-center sm:pt-0 lg:items-center text-justify">
+        <div className="max-w-[1000px]  flex flex-col items-center p-10 sm:justify-center text-justify">
           <div className="lg:max-w-[1000px] sm:h-60 sm:w-80 h-auto w-auto items-start">
             <Image
               className="shadow-lg rounded-3xl align-middle border-solid shadow-slate-200"

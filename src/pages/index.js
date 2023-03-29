@@ -22,15 +22,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <div className="m-auto h-full w-full flex flex-col justify-center pr-2">
+        <div className="m-auto h-full w-full flex flex-col justify-center pr-2">
           <Sidenav />
           <Main />
-          <About />  
-          <Skills />        
+          <About />
+          <Skills />
           <Projects />
           <Work />
           <Contact />
-          <ScrollToTop/>
+          <ScrollToTop />
         </div>
       </main>
     </>

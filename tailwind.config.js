@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      grayscale: {
+        100: "100%",
+      },
       keyframes: {
         resume: {
           "0%, 100%": { transform: "rotate(-3deg)" },
@@ -14,6 +17,7 @@ module.exports = {
       },
       backgroundImage: {
         bgMain: "url('../../public/assets/bg15.jpg')",
+        bgEarth: "url('../../public/assets/earth.jpg')",
       },
     },
   },
