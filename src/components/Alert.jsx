@@ -2,7 +2,7 @@ import React from "react";
 
 const Alert = ({ children }) => {
   return (
-    <div className="text-center my-4 bg-red-600 text-white font-bold p-3 uppercase">
+    <div className="text-right text-xs my-1 bg-transparent text-red-600 font-bold p-1 uppercase">
       {children}
     </div>
   );

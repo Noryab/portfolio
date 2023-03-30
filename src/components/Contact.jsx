@@ -6,12 +6,10 @@ import Link from "next/link";
 
 const Contact = ({ profile, loading }) => {
   const profileSchema = Yup.object().shape({
-    name: Yup.string()
-      .min(3, "The name is to short")
-      .required("The name is required"),
-    lastName: Yup.string().required("The name of lastName is required"),
-    email: Yup.string().email().required("The email is required"),
-    phone: Yup.number().integer().positive(),
+    firstName: Yup.string().min(3, "The name is to short").required("Required"),
+    lastName: Yup.string().required("Required"),
+    email: Yup.string().email().required("Required"),
+    message: Yup.string().required("Required"),
     //message:Yup.string().min(3, "The name is to short").required("The email is required"),
   });
 
@@ -66,7 +64,7 @@ const Contact = ({ profile, loading }) => {
             <div className=" sm:py-10 flex flex-col flex-wrap justify-center">
               <Formik
                 initialValues={{
-                  firstName: profile?.name ?? profile?.firstName ?? "",
+                  firstName: profile?.firstName ?? "",
                   lastName: profile?.lastName ?? "",
                   email: profile?.email ?? "",
                   phone: profile?.phone ?? "",
@@ -92,7 +90,7 @@ const Contact = ({ profile, loading }) => {
                             id="firstName"
                             type="text"
                             className="mt-2 w-full p-3 bg-gray-50"
-                            placeholder="First Name"
+                            placeholder="First Name *"
                             name="firstName"
                           />
                           {errors.firstName && touched.firstName ? (
@@ -110,9 +108,6 @@ const Contact = ({ profile, loading }) => {
                             placeholder="Last Name"
                             name="lastName"
                           />
-                          {errors.lastName && touched.lastName ? (
-                            <Alert>{errors.lastName}</Alert>
-                          ) : null}
                         </div>
                       </div>
 
@@ -124,7 +119,7 @@ const Contact = ({ profile, loading }) => {
                           id="email"
                           type="text"
                           className="mt-2  w-full p-3 bg-gray-50"
-                          placeholder="Email"
+                          placeholder="Email *"
                           name="email"
                         />
                       </div>
@@ -141,9 +136,12 @@ const Contact = ({ profile, loading }) => {
                           id="message"
                           type="text"
                           class="peer block min-h-fit w-full rounded border-0 py-[0.32rem] px-3 leading-[4.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
-                          placeholder="Your message"
+                          placeholder="Message *"
                           name="message"
                         />
+                        {errors.message && touched.message ? (
+                          <Alert>{errors.message}</Alert>
+                        ) : null}
                       </div>
                     </Form>
                   );
