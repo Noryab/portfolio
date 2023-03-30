@@ -9,11 +9,11 @@ const Skills = () => {
       className="pl-10 pt-10 pr-10 pb-16 bg-gradient-to-tr md:m-auto h-auto w-screen sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-[#29bc8d] to-[#2988bc]"
     >
       <div className="max-w-[1240px] m-auto p-6   flex flex-col">
-        <h1 className="text-4xl pt-10 font-bold text-center text-[#f1f3f7]">
+        <h1 className="text-4xl pt-10 font-bold text-center text-[#e99401]">
           Skills
         </h1>
         <div className="sm:grid sm:grid-cols-4 sm:gap-10 pt-5 sm:pt-20">
-          <h3 className="text-3xl flex justify-center text-center p-5 font-medium text-white">
+          <h3 className="text-3xl flex justify-center text-center p-5 font-medium text-[#e99401]">
             Languages
           </h3>
           <div className="relative flex p-5 h-20 justify-center shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
@@ -50,7 +50,7 @@ const Skills = () => {
               />
             </a>
           </div>
-          <h3 className="text-3xl flex justify-center text-center  p-5 font-medium text-white">
+          <h3 className="text-3xl flex justify-center text-center  p-5 font-medium text-[#e99401]">
             Databases
           </h3>
           <div className="relative flex p-5 justify-center h-20 w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
@@ -88,7 +88,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 className="text-3xl flex justify-center text-center p-5  font-medium text-white">
+          <h3 className="text-3xl flex justify-center text-center p-5  font-medium text-[#e99401]">
             Frontend Development
           </h3>
           <div className="relative flex p-5 justify-center h-20 w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
@@ -138,7 +138,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 className="text-3xl flex justify-center text-center p-5  font-medium text-white">
+          <h3 className="text-3xl flex justify-center text-center p-5  font-medium text-[#e99401]">
             Backend Development
           </h3>
           <div className="relative flex p-5 justify-center h-20 w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
@@ -180,7 +180,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 className="text-3xl flex justify-center text-center p-5 font-medium text-white">
+          <h3 className="text-3xl flex justify-center text-center p-5 font-medium text-[#e99401]">
             Data Visualization
           </h3>
           <div className="relative flex p-5 justify-center h-20 w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
@@ -207,7 +207,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 className="text-3xl flex text-center justify-center p-5 font-medium text-white">
+          <h3 className="text-3xl flex text-center justify-center p-5 font-medium text-[#e99401]">
             AI/ML/CV
           </h3>
           <div className="flex p-5 justify-center h-20 w-full shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">
@@ -257,7 +257,7 @@ const Skills = () => {
             </a>
           </div>
 
-          <h3 className="col-start-2 flex justify-center text-3xl text-center p-5 font-medium text-white">
+          <h3 className="col-start-2 flex justify-center text-3xl text-center p-5 font-medium text-[#e99401]">
             Tools
           </h3>
           <div className="relative flex p-5 h-20 justify-center shadow-xl shadow-gray-800 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ebedf3]">

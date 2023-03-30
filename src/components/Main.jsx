@@ -22,7 +22,7 @@ const Main = () => {
         <h1 className="text-center sm:text-5xl text-3xl font-bold text-gray-100">
           Alejandro Garzon
         </h1>
-        <h2 className="flex flex-row justify-center sm:text-3xl text-2xl pt-4 text-gray-100 text-center">
+        <h2 className="flex flex-row justify-center sm:text-3xl text-2xl pt-4 text-[#e99401] text-center">
           I am a
           <TypeAnimation
             sequence={[

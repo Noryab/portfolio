@@ -11,7 +11,7 @@ const Projects = () => {
       id="projects"
       className="max-w-[1240px] pt-14 m-auto pl-10 pr-10 md:pl-10 p-4 py-5"
     >
-      <h1 className="text-4xl pt-10 font-bold text-center text-[#001b5e]">
+      <h1 className="text-4xl pt-10 font-bold text-center text-[#e99401]">
         Projects
       </h1>
       <p className="text-justify py-8">

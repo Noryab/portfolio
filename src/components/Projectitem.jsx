@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Projectitem = ({ img, title, description }) => {
   return (
-    <div className="relative flex flex-wrap justify-center h-full w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r text-blue-600 hover:text-blue-200">
+    <div className="relative flex flex-wrap justify-center h-full w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r text-[#e99401] hover:text-blue-200">
       <Image
         src={img}
         alt="/"
@@ -27,9 +27,9 @@ const Projectitem = ({ img, title, description }) => {
           <Link
             href="#contact"
             className="inline-flex items-center px-3 py-2 text-sm
-          font-medium text-center text-white bg-blue-600 rounded-lg
-          hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300
-          dark:bg-blue-600 dark:hover:bg-blue-600 dark:focus:ring-blue-700"
+            font-medium text-center text-white bg-[#e99401] rounded-lg
+            hover:bg-[#f2a727] focus:ring-4 focus:outline-none focus:ring-blue-300
+            dark:bg-[#f2a727] dark:hover:bg-[#f2a727] dark:focus:ring-[#e99401]"
           >
             Read more
             <svg

@@ -6,11 +6,12 @@ import Link from "next/link";
 
 const Contact = ({ profile, loading }) => {
   const profileSchema = Yup.object().shape({
-    firstName: Yup.string().min(3, "The name is to short").required("Required"),
-    lastName: Yup.string().required("Required"),
-    email: Yup.string().email().required("Required"),
-    message: Yup.string().required("Required"),
-    //message:Yup.string().min(3, "The name is to short").required("The email is required"),
+    firstName: Yup.string()
+      .min(3, "The name is to short")
+      .required("* Please enter your name."),
+    lastName: Yup.string().required("* Please enter your last name."),
+    email: Yup.string().email().required("* Please enter your email address."),
+    message: Yup.string().required("* Please enter a message."),
   });
 
   const handleSubmit = async (values) => {
@@ -54,12 +55,34 @@ const Contact = ({ profile, loading }) => {
           </h1>
 
           <div className="px-10 pt-10  sm:px-0 justify-center mx-auto flex flex-col sm:flex-row items-center grayscale-0">
-            <div className="sm:grid sm:grid-rows-2 flex-wrap">
-              <div className="sm:py-40 flex sm:row-start-1">
+            <div className="sm:grid sm:grid-rows-3 flex-wrap">
+              <div className="sm:py-10 flex sm:row-start-1">
                 <h3 class="flex justify-start  text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-300">
-                  Get In <span class="text-blue-600 p-5">Touch</span>
+                  Get In <span class="text-[#e99401] p-5">Touch</span>
                 </h3>
               </div>
+              <div className="sm:row-start-2 text-white flex justify-center items-start">
+                <div className="flex flex-col justify-center">
+                  <h3 class="flex flex-wrap justify-start text-2xl sm:text-3xl leading-normal font-extrabold tracking-tight text-gray-300">
+                    Email
+                    <div className="flex flex-col text-2xl sm:pr-5">
+                      <span class="text-[#e99401] p-0 text-center">
+                        <a href="mailito:balgaci@gmail.com">
+                          balgaci@gmail.com
+                        </a>
+                      </span>
+                      <span className="text-center">or</span>
+                      <span class="text-[#e99401] p-0 text-center">
+                        <a href="mailito:balgaci@unam.mx.com">
+                          balgaci@unam.mx.com
+                        </a>
+                      </span>
+                      <p className="text-left">... or use the form</p>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+              <div className="text-white flex justify-center items-start"></div>
             </div>
             <div className=" sm:py-10 flex flex-col flex-wrap justify-center">
               <Formik
@@ -151,9 +174,9 @@ const Contact = ({ profile, loading }) => {
                 <Link
                   href="#contact"
                   className="inline-flex items-center px-3 py-2 text-2xl
-                    font-medium text-center text-white bg-blue-600 rounded-lg
-                    hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300
-                    dark:bg-blue-600 dark:hover:bg-blue-600 dark:focus:ring-blue-700"
+                  font-medium text-center text-white bg-[#e99401] rounded-lg
+                  hover:bg-[#f2a727] focus:ring-4 focus:outline-none focus:ring-blue-300
+                  dark:bg-[#f2a727] dark:hover:bg-[#f2a727] dark:focus:ring-[#e99401]"
                 >
                   Send message
                   <svg

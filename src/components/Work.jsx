@@ -24,7 +24,7 @@ const Work = () => {
       id="work"
       className="max-w-[1240px] m-auto pl-10 pr-10 md:pl-20 p-4 py-16"
     >
-      <h1 className="text-4xl pt-10 font-bold text-center text-[#001b5e]">
+      <h1 className="text-4xl pt-10 font-bold text-center text-[#e99401]">
         Work
       </h1>
       {data.map((item, idx) => (

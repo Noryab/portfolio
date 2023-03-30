@@ -13,13 +13,13 @@ const About = () => {
       className="pt-10 bg-gradient-to-tr h-auto w-screen sm:h-screen bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
     >
       <div className="max-w-[1240px] pt-6 sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
-        <h1 className="text-4xl pt-10 font-bold text-center text-[#f1f2f4]">
+        <h1 className="text-4xl pt-10 font-bold text-center text-[#e99401]">
           About
         </h1>
         <div className="max-w-[1000px]  flex flex-col items-center p-10 sm:justify-center text-justify">
           <div className="lg:max-w-[1000px] sm:h-60 sm:w-80 h-auto w-auto items-start">
             <Image
-              className="shadow-lg rounded-3xl align-middle border-solid shadow-slate-200"
+              className="shadow-lg rounded-3xl align-middle border-solid shadow-[#e99401]"
               src={ProfileImg}
               alt="cover image"
               width={400}
@@ -52,7 +52,7 @@ const About = () => {
         </div>
         <div className="pr-10 pl-10 sm:pt-5">
           <div className="mx-auto h-full w-full flex flex-col">
-            <h1 className="flex justify-center text-center sm:text-3xl text-xl font-bold text-white">
+            <h1 className="flex justify-center text-center sm:text-3xl text-xl font-bold text-[#e99401]">
               Alejandro Garzon
             </h1>
             <div>
@@ -92,9 +92,9 @@ const About = () => {
             <Link
               href="#contact"
               className="inline-flex items-center px-3 py-2 text-2xl
-                    font-medium text-center text-white bg-blue-600 rounded-lg
-                    hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300
-                    dark:bg-blue-600 dark:hover:bg-blue-600 dark:focus:ring-blue-700"
+                    font-medium text-center text-white bg-[#e99401] rounded-lg
+                    hover:bg-[#f2a727] focus:ring-4 focus:outline-none focus:ring-blue-300
+                    dark:bg-[#f2a727] dark:hover:bg-[#f2a727] dark:focus:ring-[#e99401]"
             >
               Resume
               <svg
