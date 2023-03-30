@@ -47,11 +47,11 @@ const Contact = ({ profile, loading }) => {
   ) : (
     <div
       id="contact"
-      className="pt-10 bg-local h-auto sm:h-screen w-screen bg-bgEarth bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
+      className="pt-1 h-auto sm:h-screen w-screen bg-bgEarth bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
     >
-      <div className="relative sm:h-screen bg-gray-800/50 backdrop-brightness-50">
-        <div className="max-w-[1240px] pt-16 m-auto">
-          <h1 className="text-4xl pb-16 font-bold text-center text-[#ebeef3]">
+      <div className="sm:h-screen bg-gray-800/50 backdrop-brightness-50">
+        <div className="max-w-[1240px] pt-24 m-auto">
+          <h1 className="text-4xl font-bold text-center text-[#ebeef3]">
             Contact
           </h1>
 
@@ -162,7 +162,7 @@ const Contact = ({ profile, loading }) => {
                   );
                 }}
               </Formik>
-              <div className="flex justify-end pt-5  pb-5  sm:pt-20">
+              <div className="flex justify-end pt-5 sm:pt-20">
                 <Link
                   href="#contact"
                   className="inline-flex items-center px-3 py-2 text-2xl
