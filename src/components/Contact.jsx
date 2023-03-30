@@ -55,12 +55,15 @@ const Contact = ({ profile, loading }) => {
             Contact
           </h1>
 
-          <div className="px-0 sm:px-0 justify-center mx-auto flex flex-col sm:flex-row items-center grayscale-0">
-            <h3 class="flex justify-center text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-300">
-              Get In <span class="text-blue-600 p-5">Touch</span>
-            </h3>
-
-            <div className="py-5 sm:py-10 flex flex-col flex-wrap justify-center">
+          <div className="px-10 pt-10  sm:px-0 justify-center mx-auto flex flex-col sm:flex-row items-center grayscale-0">
+            <div className="sm:grid sm:grid-rows-2 flex-wrap">
+              <div className="sm:py-40 flex sm:row-start-1">
+                <h3 class="flex justify-start  text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-300">
+                  Get In <span class="text-blue-600 p-5">Touch</span>
+                </h3>
+              </div>
+            </div>
+            <div className=" sm:py-10 flex flex-col flex-wrap justify-center">
               <Formik
                 initialValues={{
                   firstName: profile?.name ?? profile?.firstName ?? "",
@@ -82,7 +85,7 @@ const Contact = ({ profile, loading }) => {
                     <Form className="mt-5">
                       <div className="flex flex-col sm:flex-row mb-4">
                         <div className="flex flex-col">
-                          <label className="text-gray-800 " htmlFor="">
+                          <label className="text-white " htmlFor="">
                             First Name:
                           </label>
                           <Field
@@ -97,7 +100,7 @@ const Contact = ({ profile, loading }) => {
                           ) : null}
                         </div>
                         <div className="flex flex-col sm:pl-2">
-                          <label className="text-gray-800" htmlFor="">
+                          <label className="text-white" htmlFor="">
                             Last Name:
                           </label>
                           <Field
@@ -114,7 +117,7 @@ const Contact = ({ profile, loading }) => {
                       </div>
 
                       <div className="mb-4">
-                        <label className="text-gray-800" htmlFor="">
+                        <label className="text-white" htmlFor="">
                           Email Address:
                         </label>
                         <Field
@@ -129,31 +132,15 @@ const Contact = ({ profile, loading }) => {
                         <Alert>{errors.email}</Alert>
                       ) : null}
 
-                      {/* <div className="mb-4">
-                  <label className="text-gray-800" htmlFor="">
-                    Phone:
-                  </label>
-                  <Field
-                    id="phone"
-                    type="tel"
-                    className="mt-2  w-full p-3 bg-gray-50"
-                    placeholder="Phone number"
-                    name="phone"
-                  />
-                </div> */}
-                      {errors.phone && touched.phone ? (
-                        <Alert>{errors.phone}</Alert>
-                      ) : null}
-
                       <div className="mb-4">
-                        <label className="text-gray-800" htmlFor="">
+                        <label className="text-white" htmlFor="">
                           Message:
                         </label>
                         <Field
                           as="textarea"
                           id="message"
                           type="text"
-                          className="mt-2  w-full p-3 bg-gray-50"
+                          class="peer block min-h-fit w-full rounded border-0 py-[0.32rem] px-3 leading-[4.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                           placeholder="Your message"
                           name="message"
                         />
