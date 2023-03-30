@@ -50,7 +50,7 @@ const Contact = ({ profile, loading }) => {
     >
       <div className="sm:h-screen bg-gray-800/50 backdrop-brightness-50">
         <div className="max-w-[1240px] pt-24 m-auto">
-          <h1 className="text-4xl font-bold text-center text-[#ebeef3]">
+          <h1 className="text-4xl font-bold text-center text-[#e99401]">
             Contact
           </h1>
 

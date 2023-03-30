@@ -42,7 +42,7 @@
     
 }
 .navigation a{
-    color: var(--blanco);
+    color: var(--primary);
     text-decoration: none;
     flex-direction: row;
     font-size: 1.2rem;
@@ -50,13 +50,13 @@
     text-transform: uppercase;
     padding-left: .4rem;    
     padding-right: .4rem;    
-    transition-property: background-color;
+    transition-property: text-color;
     transition-duration: .8s;
 }
 
 .navigation a:hover{
-    background-color: var(--primary);
-    transition-property: background-color;
+    color: var(--blanco);
+    transition-property: text-color;
     transition-duration: .8s;
 
 }
