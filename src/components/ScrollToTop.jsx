@@ -30,7 +30,7 @@ export const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-2 lg:right-4 right-0">
+    <div className="fixed bottom-2 sm:right-4 right-1">
       <button
         type="button"
         onClick={scrollToTop}
@@ -39,7 +39,7 @@ export const ScrollToTop = () => {
           "bg-[#e99401] hover:bg-gray-700 focus:ring-gray-500 inline-flex items-center rounded-full lg:p-3 p-0 lg:right-3 right-0 text-white shadow-sm transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2"
         )}
       >
-        <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />
+        <BiArrowFromBottom className="h-8 w-8" aria-hidden="true" />
       </button>
     </div>
   );

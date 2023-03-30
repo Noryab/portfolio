@@ -19,10 +19,10 @@ const Sidenav = () => {
     <div>
       <AiOutlineMenu
         onClick={handleNav}
-        className="fixed top-2 right-0 z-[99] md:hidden"
+        className="fixed top-2 right-1 z-[90] md:hidden bg-[#e99401]"
       />
       {nav ? (
-        <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
+        <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-[90]">
           <a
             onClick={handleNav}
             href="#main"

@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 const Header = () => {
   const router = useRouter();
   return (
-    <header className="fixed py-5 flex flex-wrap flex-auto flex-row opacity-90 justify-center bg-black bg-gradient-to-tr w-screen h-auto bg-fixed bg-cover brightness-90 from-[#323232] to-[#222323] z-50">
+    <header className="hidden sm:fixed py-5 sm:flex flex-wrap flex-auto flex-row opacity-90 justify-center bg-black bg-gradient-to-tr w-screen h-auto bg-fixed bg-cover brightness-90 from-[#323232] to-[#222323] z-50">
       {/* <header className={styles.header}> */}
       <div className={styles.bar}>
         {/* <Link href="#main">
