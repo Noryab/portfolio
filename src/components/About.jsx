@@ -10,10 +10,12 @@ const About = () => {
   return (
     <div
       id="about"
-      className="bg-gradient-to-tr h-auto w-screen sm:h-auto bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
+      className="pt-10 bg-gradient-to-tr h-auto w-screen sm:h-screen bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
     >
-      <div className="max-w-[1240px] py-10 sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
-        <h1 className="text-4xl font-bold text-center text-[#f1f2f4]">About</h1>
+      <div className="max-w-[1240px] pt-6 sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
+        <h1 className="text-4xl pt-10 font-bold text-center text-[#f1f2f4]">
+          About
+        </h1>
         <div className="max-w-[1000px]  flex flex-col items-center p-10 sm:justify-center text-justify">
           <div className="lg:max-w-[1000px] sm:h-60 sm:w-80 h-auto w-auto items-start">
             <Image
@@ -48,24 +50,24 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="pr-10 pl-10">
+        <div className="pr-10 pl-10 sm:pt-5">
           <div className="mx-auto h-full w-full flex flex-col">
             <h1 className="flex justify-center text-center sm:text-3xl text-xl font-bold text-white">
               Alejandro Garzon
             </h1>
             <div>
-              <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-10 text-gray-300">
+              <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-10 text-gray-200">
                 I am a master of Engineering (M.Eng.) of UNAM and my interests
                 are software design and development, robotics, machine learning,
                 computer vision and cloud architecture.
               </p>
-              <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-10 text-gray-300">
+              <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-10 text-gray-200">
                 I am currently a freelance.
               </p>
               <h2 className="pt-5 text-white text-2xl">
                 <b>UNAM</b>
               </h2>
-              <ul className="pt-5 pl-5 list-disc list-outside text-left text-xl text-gray-300">
+              <ul className="pt-5 pl-5 list-disc list-outside text-left text-xl text-gray-200">
                 <li>
                   <b>
                     Master of Engineering in Electrical / Digital Signal
@@ -76,7 +78,7 @@ const About = () => {
               <h2 className="pt-5 text-white text-2xl">
                 <b>UQ</b>
               </h2>
-              <ul className="pt-5 pl-5 list-disc list-outside text-left text-xl text-gray-300">
+              <ul className="pt-5 pl-5 list-disc list-outside text-left text-xl text-gray-200">
                 <li>
                   <b>
                     Bachelor of Engineering in Electronic / Digital Signal
@@ -86,7 +88,7 @@ const About = () => {
               </ul>
             </div>
           </div>
-          <div className="flex justify-end pt-10  pb-10  sm:pt-20">
+          <div className="flex justify-end pt-10  pb-5  sm:pt-20">
             <Link
               href="#contact"
               className="inline-flex items-center px-3 py-2 text-2xl

@@ -47,15 +47,15 @@ const Contact = ({ profile, loading }) => {
   ) : (
     <div
       id="contact"
-      className="bg-local w-screen bg-bgEarth bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
+      className="pt-10 bg-local h-auto sm:h-screen w-screen bg-bgEarth bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
     >
-      <div className="bg-gray-800/50 backdrop-brightness-50">
-        <div className="max-w-[1240px] h-auto pt-16 m-auto ">
+      <div className="relative sm:h-screen bg-gray-800/50 backdrop-brightness-50">
+        <div className="max-w-[1240px] pt-16 m-auto">
           <h1 className="text-4xl pb-16 font-bold text-center text-[#ebeef3]">
             Contact
           </h1>
 
-          <div className="px-10 sm:px-0 justify-center mx-auto flex flex-col sm:flex-row items-center grayscale-0">
+          <div className="px-0 sm:px-0 justify-center mx-auto flex flex-col sm:flex-row items-center grayscale-0">
             <h3 class="flex justify-center text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-300">
               Get In <span class="text-blue-600 p-5">Touch</span>
             </h3>

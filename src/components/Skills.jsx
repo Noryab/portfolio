@@ -6,10 +6,10 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="pl-10 pr-10 pb-16 bg-gradient-to-tr md:m-auto h-auto w-screen sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-[#29bc8d] to-[#2988bc]"
+      className="pl-10 pt-10 pr-10 pb-16 bg-gradient-to-tr md:m-auto h-auto w-screen sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-[#29bc8d] to-[#2988bc]"
     >
-      <div className="max-w-[1240px] py-10 m-auto p-4  flex flex-col">
-        <h1 className="text-4xl font-bold text-center text-[#f1f3f7]">
+      <div className="max-w-[1240px] m-auto p-6   flex flex-col">
+        <h1 className="text-4xl pt-10 font-bold text-center text-[#f1f3f7]">
           Skills
         </h1>
         <div className="sm:grid sm:grid-cols-4 sm:gap-10 pt-5 sm:pt-20">

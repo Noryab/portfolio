@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import About from "@/components/About";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import Skills from "@/components/Skills";
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <div className="flex flex-row">
+          <Header />
+        </div>
         <div className="m-auto h-full w-full flex flex-col justify-center pr-2">
           <Sidenav />
           <Main />
