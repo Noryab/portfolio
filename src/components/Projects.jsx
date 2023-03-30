@@ -23,7 +23,11 @@ const Projects = () => {
       <div className="grid sm:grid-cols-2 ">
         <Projectitem img={OneImg} title="Visual odometry" description="VO" />
         <Projectitem img={TwoImg} title="Ray Tracing" description="RT" />
-        <Projectitem img={ThreeImg} title="3" description="VO" />
+        <Projectitem
+          img={ThreeImg}
+          title="Rendering, lighting and texture mapping"
+          description="Rendering"
+        />
         <Projectitem img={FourImg} title="4" description="VO" />
       </div>
     </div>

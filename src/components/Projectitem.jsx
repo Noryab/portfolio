@@ -19,8 +19,10 @@ const Projectitem = ({ img, title, description }) => {
       <div className="sm:group-hover:block sm:group-hover:z-10 absolute top-[10%] sm:top-[50%] left-[50%] translate-x-[-50%] translate-y-[20%] sm:translate-y-[50%] sm:group-hover:translate-y-0 transition duration-500 ">
         <div className="hidden  group-hover:block">
           <p className="mb-3 font sm:flex flex-wrap sm:text-xl text-white dark:text-gray-400 ">
-            {description} Here are the biggest enterprise technology
-            acquisitions of 2021 so far.
+            {description} Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Suscipit delectus expedita ipsam eius sit officiis, nulla ab
+            laborum laudantium soluta. Earum debitis fugit animi quia modi
+            nihil, vel minima culpa.
           </p>
           <Link
             href="#contact"
