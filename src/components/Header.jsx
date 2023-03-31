@@ -39,7 +39,7 @@ const Header = () => {
     <section
       className={`sticky ${
         scrollDirection === "down" ? "sm:-top-24" : "sm:top-0 hidden"
-      }  top-0 sm:fixed py-5 sm:flex flex-wrap flex-auto flex-row opacity-90 justify-center bg-black bg-gradient-to-tr w-screen h-auto bg-fixed bg-cover brightness-90 from-[#323232] to-[#222323] z-50 transition-all duration-700`}
+      } h-20 top-0 sm:fixed py-5 sm:flex flex-wrap flex-auto flex-row opacity-90 justify-center bg-black bg-gradient-to-tr w-screen bg-fixed bg-cover brightness-90  z-50 transition-all duration-700`}
     >
       <header className="">
         {/* <header className={styles.header}> */}
