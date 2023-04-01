@@ -28,14 +28,16 @@ const Projects = () => {
       <div
         className="
                         flex
-                        justify-between
+                        flex-wrap
+                        justify-center
+                        sm:justify-between
                         border-b border-primary-light
                         dark:border-secondary-dark
                         pb-3
                         gap-3
                         "
       >
-        <div className="flex justify-between gap-2">
+        <div className="flex flex-wrap sm:justify-between gap-2">
           <span
             className="
                                 hidden
