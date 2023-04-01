@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 A simple portfolio theme built with React and Tailwind CSS.
 
-![React-TailwindCSS-Portfolio](https://github.com/Noryab/portfolio/tree/gh-pages/public/main_portfolio.png)
+![React-TailwindCSS-Portfolio](/public/main_portfolio.png)
 
 <!-- ## Demo URL
 
