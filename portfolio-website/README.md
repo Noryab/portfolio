@@ -1,5 +1,34 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# React & TailwindCSS Portfolio
+
+A simple portfolio theme built with React and Tailwind CSS.
+
+![React-TailwindCSS-Portfolio](/public/main_portfolio.png)
+
+<!-- ## Demo URL
+
+[https://react-tailwindcss-portfolio.netlify.app](https://react-tailwindcss-portfolio.netlify.app) -->
+
+## Features
+
+- [React v18](https://reactjs.org) with [React Router v6](https://reactrouter.com)
+- [Tailwind CSS v3](https://tailwindcss.com)
+- Context API For State Management
+- Custom Hooks
+- Unit Testing
+- Framer Motion transitions & animations
+- Reusable components
+- Dark mode
+- Projects filter by category
+- Projects filter by search
+- Smooth scroll
+- Counter
+- Dynamic forms
+- Back to top button
+- Download file button
+- Simple and responsive design
+
 ## Getting Started
 
 First, run the development server:

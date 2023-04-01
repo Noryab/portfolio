@@ -1,0 +1,149 @@
+
+.header {
+    /* background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 /.7)), url(../public/assets/bg4.jpg); */
+    background-size: cover;    
+    background-image: linear-gradient(rgb(70, 68, 68), rgb(29, 29, 29));
+    opacity: 100%;
+    background-position: 100%;
+    padding: 0 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.bar {    
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    font-size: small;
+    z-index: 50;
+}
+
+@media (min-width: 768px){
+    .bar{
+        flex-direction: row;
+        justify-content: space-around;        
+    }
+ 
+}
+
+.navigation {
+    margin-top: 0;    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    z-index: 100;
+}
+
+@media (min-width: 768px) {
+    .navigation {
+        margin-top: 0;
+    }
+    
+}
+.navigation a{
+    color: var(--primary);
+    text-decoration: none;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-left: .4rem;    
+    padding-right: .4rem;    
+    transition-property: text-color;
+    transition-duration: .8s;
+}
+
+.navigation a:hover{
+    color: var(--blanco);
+    transition-property: text-color;
+    transition-duration: .8s;
+
+}
+
+.model {
+ color: var(--blanco);   
+ margin-top: 5rem;
+ text-align: center;
+}
+
+@media (min-width:768px) {
+    .model {
+        width: 50%;
+        text-align: left;
+       }
+          
+}
+
+.model h2 {
+    font-size: 8rem;
+}
+
+.model p:first-of-type {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 2.2rem;
+}
+
+.price {
+    font-size: 3rem;
+    color: var(--primary);
+    font-weight: 900;
+    line-height: 0;
+}
+
+.linkInput {
+    margin-top: 2rem;    
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--blanco);
+    border: 2px solid var(--primary);
+    padding: 1rem 5rem;
+    transition-property: background-color;
+    transition-duration: .5s;
+
+}
+
+.linkInput:hover{
+    background-color: var(--primary);
+    color: var(--blanco);
+}
+
+.product {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .product {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -8px;
+        animation-name: showImage;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-delay: 0;
+        animation-timing-function: ease-in-out;
+    }
+        
+}
+
+@keyframes showImage {
+    0% {
+        opacity: 0;
+        transform: translate(-10rem);
+    }
+    50% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
