@@ -13,8 +13,8 @@ const About = () => {
       className="pt-10 bg-gradient-to-tr h-auto w-screen sm:h-screen bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
     >
       <div className="max-w-[1240px] pt-6 sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
-        <h1 className="text-4xl pt-10 font-bold text-center text-[#e99401]">
-          About Me
+        <h1 className="text-4xl pt-10 text-center text-[#e99401]">
+          About <span class="text-[#e99401] font-extrabold p-5"> Me</span>
         </h1>
         <div className="max-w-[1000px]  flex flex-col items-center p-10 sm:justify-center text-justify">
           <div className="lg:max-w-[1000px] sm:h-60 sm:w-80 h-auto w-auto items-start">
