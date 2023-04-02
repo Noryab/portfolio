@@ -13,8 +13,8 @@ const About = () => {
       className="pt-10 bg-gradient-to-tr h-auto w-screen sm:h-screen bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
     >
       <div className="max-w-[1240px] pt-6 sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
-        <h1 className="text-4xl font-bold pt-10 text-center text-[#e99401]">
-          About <span class="text-[#e99401] font-extrabold p-5"> Me</span>
+        <h1 className="text-4xl pt-10 text-center text-[#827661]">
+          About <span class="text-[#e99401] font-bold p-5"> Me</span>
         </h1>
         <div className="max-w-[1000px]  flex flex-col items-center p-10 sm:justify-center text-justify">
           <div className="lg:max-w-[1000px] sm:h-60 sm:w-80 h-auto w-auto items-start">
@@ -52,34 +52,38 @@ const About = () => {
         </div>
         <div className="pr-10 pl-10 sm:pt-5">
           <div className="mx-auto h-full w-full flex flex-col">
-            <h1 className="flex justify-center text-center sm:text-4xl text-xl font-bold text-[#e99401]">
+            <h1 className="flex justify-center text-center sm:text-3xl text-xl font-bold text-[#e99401]">
               Alejandro Garzon
             </h1>
             <div>
-              <p className="flex flex-col text-justify sm:text-3xl text-xl pt-10 text-gray-200">
+              <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-10 text-gray-200">
                 I am a master of Engineering (M.Eng.) of UNAM and my interests
                 are software design and development, robotics, machine learning,
                 computer vision and cloud architecture.
               </p>
-              <p className="flex flex-col text-justify sm:text-3xl text-xl pt-10 text-gray-200">
+              <p className="flex flex-col text-justify lg:text-3xl sm:text-2xl text-xl pt-10 text-gray-200">
                 I am currently a freelance.
               </p>
               <h2 className="pt-5 text-white text-2xl">
                 <b>UNAM</b>
               </h2>
-              <ul className="pt-5 pl-5 list-disc list-outside text-left sm:text-3xl text-gray-200">
+              <ul className="pt-5 pl-5 list-disc list-outside text-left text-xl text-gray-200">
                 <li>
-                  Master of Engineering in Electrical / Digital Signal
-                  Processing
+                  <b>
+                    Master of Engineering in Electrical / Digital Signal
+                    Processing
+                  </b>
                 </li>
               </ul>
               <h2 className="pt-5 text-white text-2xl">
                 <b>UQ</b>
               </h2>
-              <ul className="pt-5 pl-5 list-disc list-outside text-left sm:text-3xl text-gray-200">
+              <ul className="pt-5 pl-5 list-disc list-outside text-left text-xl text-gray-200">
                 <li>
-                  Bachelor of Engineering in Electronic / Digital Signal
-                  Processing
+                  <b>
+                    Bachelor of Engineering in Electronic / Digital Signal
+                    Processing
+                  </b>
                 </li>
               </ul>
             </div>
