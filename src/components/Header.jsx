@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 import styles from "../styles/Header.module.css";
@@ -57,6 +56,7 @@ const Header = () => {
             <Link href="/#projects">Projects</Link>
             <Link href="/#work">Work</Link>
             <Link href="/#contact">Contact</Link>
+            <Link href="/blog">Blog</Link>
           </nav>
         </div>
       </header>

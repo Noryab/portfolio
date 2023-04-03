@@ -27,27 +27,27 @@ const About = () => {
             />
           </div>
           <div className="flex justify-around pt-10 max-w-[600px] w-full">
-            <a
+            <Link
               href="https://twitter.com/balgaci"
               target="_blank"
               rel="noreferrer"
             >
               <FaTwitter className="cursor-pointer" size={30} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/Noryab"
               target="_blank"
               rel="noreferrer"
             >
               <FaGithub className="cursor-pointer" size={30} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://twitter.com/balgaci"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedinIn className="cursor-pointer" size={30} />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="pr-10 pl-10 sm:pt-5">

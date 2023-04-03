@@ -1,8 +1,8 @@
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
-import React from "react";
-import Alert from "./Alert";
+
 import Link from "next/link";
+import Alert from "../utilities/Alert";
 
 const Contact = ({ profile, loading }) => {
   const profileSchema = Yup.object().shape({

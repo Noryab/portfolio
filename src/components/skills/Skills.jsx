@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="pl-10 pt-10 pr-10 pb-16 bg-gradient-to-tr md:m-auto h-auto w-screen sm:h-auto sm:w-screen bg-fixed bg-cover bg-center from-[#3b9bc7] to-[#2988bc]"
+      className="pl-10 pt-10 pr-10 pb-16 bg-gradient-to-tr md:m-auto h-auto sm:h-screen w-screen sm:w-screen bg-fixed bg-cover bg-center from-[#3b9bc7] to-[#2988bc]"
     >
       <div className="max-w-[1240px] m-auto p-6   flex flex-col">
         <h1 className="text-4xl pt-10 font-bold text-center text-[#e99401]">
