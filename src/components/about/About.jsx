@@ -10,13 +10,13 @@ const About = () => {
   return (
     <div
       id="about"
-      className="pt-10 bg-gradient-to-tr h-auto w-screen sm:h-screen bg-fixed bg-cover bg-center from-[#1d1d1d] to-[#abb3cd]"
+      className="pt-10 bg-gradient-to-tr h-auto w-screen sm:h-screen bg-fixed bg-cover bg-center from-[#e7e4e4] to-[#abb3cd]"
     >
       <div className="max-w-[1240px] pt-6 sm:py-10 m-auto flex flex-col lg:flex-row justify-center items-center">
-        <h1 className="text-4xl font-bold pt-10 text-center text-[#e99401]">
-          About <span class="text-[#e99401] font-extrabold p-5"> Me</span>
+        <h1 className="text-4xl font-bold pt-10 text-center text-[#0b0b0b]">
+          About<span class="text-[#6b6a6a] font-extrabold p-2">me</span>
         </h1>
-        <div className="max-w-[1000px]  flex flex-col items-center p-10 sm:justify-center text-justify">
+        <div className="max-w-[1000px]  flex flex-col items-center p-5 sm:justify-center text-justify">
           <div className="lg:max-w-[1000px] sm:h-60 sm:w-80 h-auto w-auto items-start">
             <Image
               className=" shadow-sm rounded-3xl align-middle border-solid shadow-[#e99401]"
@@ -51,32 +51,33 @@ const About = () => {
           </div>
         </div>
         <div className="pr-10 pl-10 sm:pt-5">
-          <div className="mx-auto h-full w-full flex flex-col">
-            <h1 className="flex justify-center text-center sm:text-4xl text-xl font-bold text-[#e99401]">
-              Alejandro Garzon
+          <div className="mx-auto h-full w-full flex flex-col sm:text-2xl">
+            <h1 className="flex justify-center text-center sm:text-3xl font-bold text-[#090909]">
+              Alejandro Garzón
             </h1>
             <div>
-              <p className="flex flex-col text-justify sm:text-3xl text-xl pt-10 text-gray-200">
-                I am a master of Engineering (M.Eng.) of UNAM and my interests
-                are software design and development, robotics, machine learning,
-                computer vision and cloud architecture.
+              <p className="flex flex-col text-justify  pt-10 text-gray-700">
+                I am an engineer with a Master of Engineering degree from the
+                National Autonomous University of Mexico (UNAM). My interests
+                lie in software design and development, robotics, machine
+                learning, computer vision, and cloud architecture.
               </p>
-              <p className="flex flex-col text-justify sm:text-3xl text-xl pt-10 text-gray-200">
-                I am currently a freelance.
+              <p className="flex flex-col text-justify  pt-10 text-gray-700">
+                Currently, I work as a freelancer.
               </p>
-              <h2 className="pt-5 text-white text-2xl">
-                <b>UNAM</b>
+              <h2 className="pt-5 text-gray-800 text-2xl">
+                <b>Universidad Nacional Autónoma de México</b>
               </h2>
-              <ul className="pt-5 pl-5 list-disc list-outside text-left sm:text-3xl text-gray-200">
+              <ul className="pt-5 pl-5 list-disc list-outside text-left  text-gray-700">
                 <li>
                   Master of Engineering in Electrical / Digital Signal
                   Processing
                 </li>
               </ul>
-              <h2 className="pt-5 text-white text-2xl">
-                <b>UQ</b>
+              <h2 className="pt-5 text-gray-800">
+                <b>Universidad del Quindío</b>
               </h2>
-              <ul className="pt-5 pl-5 list-disc list-outside text-left sm:text-3xl text-gray-200">
+              <ul className="pt-5 pl-5 list-disc list-outside text-left text-gray-700">
                 <li>
                   Bachelor of Engineering in Electronic / Digital Signal
                   Processing
@@ -86,12 +87,13 @@ const About = () => {
           </div>
           <div className="flex justify-end pt-10  pb-5  sm:pt-20">
             <Link
+              rel="noopener noreferrer"
               target="_blank"
               href="assets/CV_Bayron_Alejandro_Garzon_Cifuentes.pdf"
               className="inline-flex items-center px-3 py-2 text-2xl
-                    font-medium text-center text-white bg-[#e99401] rounded-lg
-                    hover:bg-[#f2a727] focus:ring-4 focus:outline-none focus:ring-blue-300
-                    dark:bg-[#f2a727] dark:hover:bg-[#f2a727] dark:focus:ring-[#e99401]"
+                    font-medium text-center text-black bg-[#fcf9f4] rounded-lg
+                    hover:bg-[#e4e3e2] focus:ring-4 focus:outline-none focus:ring-blue-300
+                    dark:bg-[#fefdfc] dark:hover:bg-[#fcfaf7] dark:focus:ring-[#fcfaf7]"
             >
               Resume
               <svg
