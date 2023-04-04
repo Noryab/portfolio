@@ -14,7 +14,7 @@ const Workitem = ({ year, title, duration, description }) => {
             {duration}
           </span>
         </p>
-        <pre className="my-2 pl-20 text-base font-normal text-stone-800 whitespace-pre-line">
+        <pre className="my-2 sm:pl-20 text-base font-normal text-stone-800 whitespace-pre-line">
           {description}
         </pre>
       </li>
