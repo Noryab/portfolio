@@ -93,15 +93,48 @@ const Projects = () => {
         <ProjectsFilter setSelectProject={""} />
       </div>
 
-      <div className="grid sm:grid-cols-3 ">
+      <div className="grid sm:grid-cols-3">
         <Projectitem img={OneImg} title="Visual odometry" description="VO" />
-        <Projectitem img={TwoImg} title="Ray Tracing" description="RT" />
+        <Projectitem
+          img={TwoImg}
+          title="Ray Tracing"
+          description="RT Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Suscipit delectus expedita ipsam eius sit officiis, nulla ab
+          laborum laudantium soluta. Earum debitis fugit animi quia modi
+          nihil, vel minima culpa"
+        />
         <Projectitem
           img={ThreeImg}
           title="Rendering, lighting and texture mapping"
-          description="Rendering"
+          description="Rendering Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Suscipit delectus expedita ipsam eius sit officiis, nulla ab
+          laborum laudantium soluta. Earum debitis fugit animi quia modi
+          nihil, vel minima culpa"
         />
-        <Projectitem img={FourImg} title="4" description="VO" />
+        <Projectitem
+          img={FourImg}
+          title="Object Tracking"
+          description="VO Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Suscipit delectus expedita ipsam eius sit officiis, nulla ab
+          laborum laudantium soluta. Earum debitis fugit animi quia modi
+          nihil, vel minima culpa"
+        />
+        <Projectitem
+          img={FourImg}
+          title="Object Tracking"
+          description="VO Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Suscipit delectus expedita ipsam eius sit officiis, nulla ab
+          laborum laudantium soluta. Earum debitis fugit animi quia modi
+          nihil, vel minima culpa"
+        />
+        <Projectitem
+          img={TwoImg}
+          title="Object Tracking"
+          description="VO Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Suscipit delectus expedita ipsam eius sit officiis, nulla ab
+          laborum laudantium soluta. Earum debitis fugit animi quia modi
+          nihil, vel minima culpa"
+        />
       </div>
     </div>
   );
