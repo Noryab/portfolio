@@ -30,10 +30,12 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="pt-10 bg-gradient-to-tr h-auto w-screen bg-fixed bg-cover bg-center from-[#b7b6b6] to-[#abb3cd]"
+      className="pt-14 bg-gradient-to-tr h-auto w-screen bg-fixed bg-cover bg-center from-[#b7b6b6] to-[#abb3cd]"
     >
       <div className="max-w-[1240px] m-auto pl-10 pr-10  ">
-        <h1 className="text-4xl p-10 font-bold text-center text-white">Work</h1>
+        <h1 className="text-4xl pt-10 font-bold text-center text-white">
+          Work
+        </h1>
         {data.map((item, idx) => (
           <Workitem
             key={idx}

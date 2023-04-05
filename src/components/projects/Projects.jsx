@@ -18,11 +18,20 @@ const Projects = () => {
       <h1 className="text-4xl pt-10 font-bold text-center text-[#e99401]">
         Projects
       </h1>
-      <p className="text-justify py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet rerum
-        iste voluptates, quidem iure blanditiis, quasi esse fuga repellat quod
-        excepturi enim quas sapiente cum doloremque animi cumque reprehenderit?
-        Minus.
+      {/* <p className="text-justify py-8 whitespace-pre-line"> */}
+      <p className="flex flex-col whitespace-pre-line text-justify  pt-10 text-gray-700">
+        My portfolio showcases a diverse range of projects that demonstrate my
+        expertise as a backend developer, ML engineer, and data scientist. From
+        web development to computer vision, my projects highlight my proficiency
+        in a variety of areas. As an ML engineer, I specialize in computer
+        vision, and my portfolio features numerous successful projects in this
+        field. I am skilled in both Python and Node.js for backend development,
+        allowing me to work efficiently on complex projects. Additionally, I
+        have experience developing and deploying ML-based solutions on the
+        Google Cloud Platform, demonstrating my ability to deliver powerful
+        solutions to challenging problems. With a focus on delivering effective
+        solutions in a variety of fields, my portfolio highlights my extensive
+        knowledge and skills as a developer, ML engineer, and data scientist.
       </p>
 
       <div
